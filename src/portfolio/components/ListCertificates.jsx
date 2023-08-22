@@ -8,7 +8,7 @@ const ListCertificates = ({ category }) => {
 
   return (
     <div>
-        <h1 className="font-bold text-center m-6 text-4xl">Certificados: {category}</h1>
+        <h1 className="font-bold text-center m-6 text-4xl mt-20">Certificados: {category}</h1>
       <div className="flex gap-6 flex-wrap justify-center">
         {certificates.map((certificate) => (
           <CertificatesCard key={certificate.id} certificate={...certificate} />

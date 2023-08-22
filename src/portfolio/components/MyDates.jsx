@@ -4,10 +4,9 @@ import Tecnology from "./Tecnology";
 import Typical from "react-typical";
 
 const MyDates = () => {
-  const changesNames = () => {};
 
   return (
-    <div className="px-4 md:px-8 lg:px-16">
+    <div className="px-4 md:px-8 lg:px-16 mt-32">
       {" "}
       {/* Agrega padding lateral para todos los tamaños */}
       <div className="text-center text-5xl my-4">

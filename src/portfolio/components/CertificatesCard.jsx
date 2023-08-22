@@ -14,7 +14,7 @@ const CertificatesCard = ({ certificate }) => {
         <img
           src={imageUrl}
           alt={course}
-          className="w-auto h-full rounded-md object-bottom shadow-xl mt-2 hover:scale-125 duration-300 transition-all "
+          className="w-auto h-full rounded-md object-bottom shadow-xl mt-2 hover:scale-105 duration-300 transition-all "
         />
       </a>
     </div>

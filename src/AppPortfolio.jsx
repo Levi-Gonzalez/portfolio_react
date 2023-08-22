@@ -10,7 +10,7 @@ function App() {
         <NavBar/>
       <Routes>
         <Route path="/*" element={<MyDates />}/>
-        <Route path="/profile" element={<MyDates />}/>
+        <Route path="/" element={<MyDates />}/>
         <Route path="/personal-certificates" element={<PersonalCertificates/>}/>
         <Route path="/technical-certificates" element={<TechnicalCertificates/>}/>
       </Routes>

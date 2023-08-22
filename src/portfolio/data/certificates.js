@@ -32,34 +32,41 @@ export const certificates = [
     course: "Mongo DB ",
     platform: "Udemy",
     category: "Técnicos",
-    url:"https://www.udemy.com/certificate/UC-98cd2dc9-967e-4c9b-9c33-91e2b3c36fca/"
+    url: "https://www.udemy.com/certificate/UC-98cd2dc9-967e-4c9b-9c33-91e2b3c36fca/",
   },
   {
     id: "typescript-codigo-facilito",
     course: "TypeScript",
     platform: "Codigo Facilito",
     category: "Técnicos",
-    url:"https://drive.google.com/file/d/1RT5myekvYemv5YK-sd1CK7TQA24FTpOX/view?usp=drive_link"
+    url: "https://drive.google.com/file/d/1RT5myekvYemv5YK-sd1CK7TQA24FTpOX/view?usp=drive_link",
   },
   {
     id: "programacion-inicial-codo-a-codo",
     course: "Programación Inicial",
     platform: "Codo a Codo",
     category: "Técnicos",
-    url:"https://drive.google.com/file/d/1gEUXKD53fSe40B3xDHg6Hm383BE6j0aP/view?usp=drive_link"
+    url: "https://drive.google.com/file/d/1gEUXKD53fSe40B3xDHg6Hm383BE6j0aP/view?usp=drive_link",
   },
   {
     id: "logica-programacion-alura",
     course: "Lógica de Programación ",
     platform: "Alura",
     category: "Técnicos",
-    url:"https://drive.google.com/file/d/1op5TChcVtx3zEh_TxsOuV2xmq4UGzAkt/view?usp=drive_link"
+    url: "https://drive.google.com/file/d/1op5TChcVtx3zEh_TxsOuV2xmq4UGzAkt/view?usp=drive_link",
   },
   {
     id: "gestion-agil-liderazgo",
     course: "Gestión Ágil y Liderazgo",
     platform: "Alura",
     category: "Desarrollo Personal",
-    url: "https://app.aluracursos.com/certificate/Levi-Gonzalez/gestion-agil-liderando-cambio"
+    url: "https://app.aluracursos.com/certificate/Levi-Gonzalez/gestion-agil-liderando-cambio",
+  },
+  {
+    id: "fundamentos-de-agilidad",
+    course: "Fundamentos De Agilidad",
+    platform: "Alura",
+    category: "Desarrollo Personal",
+    url: "https://app.aluracursos.com/user/Levi-Gonzalez/course/fundamentos-agilidad-primeros-pasos-transformacion-agil/formalCertificate",
   },
 ];
