@@ -1,5 +1,6 @@
 import images from "../../../assets/images/foto-perfil.jpg";
 import CVPage from "./CvPage";
+import Projects from "./Project";
 import Tecnology from "./Tecnology";
 import Typical from "react-typical";
 
@@ -50,6 +51,7 @@ const MyDates = () => {
         </div>
       </div>
       <Tecnology />
+      <Projects />
     </div>
   );
 };

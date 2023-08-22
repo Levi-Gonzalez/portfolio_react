@@ -13,7 +13,7 @@ const Navbar = () => {
       <div className="container mx-auto flex sm:justify-between items-center">
         <div className="flex items-center">
           
-          <NavLink to={"/"} className="mr-4">
+          <NavLink to={"/"} className="mr-80 ">
             Levi Gonzalez
           </NavLink>
 

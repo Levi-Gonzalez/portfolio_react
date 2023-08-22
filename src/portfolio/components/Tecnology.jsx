@@ -11,7 +11,7 @@ const Technology = () => {
 
   return (
     <>
-      <h1 className="text-center font-semibold text-4xl mt-28 mb-20 ">Tecnologías</h1>
+      <h1 className="text-center font-semibold text-4xl mt-28 mb-10 uppercase ">Tecnologías</h1>
       <div className="flex justify-center">
         <div className="flex  sm:gap-1  xl:gap-3">
           {technologyIcons.map((icon, index) => (
