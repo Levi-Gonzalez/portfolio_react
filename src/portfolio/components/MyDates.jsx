@@ -1,4 +1,3 @@
-import images from "../../../assets/images/foto-perfil.jpg";
 import CVPage from "./CvPage";
 import Projects from "./Project";
 import Tecnology from "./Tecnology";
@@ -6,6 +5,9 @@ import Typical from "react-typical";
 import Button from "../ui/Button";
 
 const MyDates = () => {
+
+  const images = "../../../src/assets/images/foto-perfil.jpg";
+
   return (
     <div className="px-4 md:px-8 lg:px-16 mt-32">
       {" "}

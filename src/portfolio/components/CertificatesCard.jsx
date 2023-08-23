@@ -1,9 +1,7 @@
-import React from "react";
-
 const CertificatesCard = ({ certificate }) => {
   const { id, course, platform, url } = certificate;
 
-  const imageUrl = `../../../assets/images/${id}.jpg`;
+  const imageUrl = `../../../src/assets/images/${id}.jpg`;
 
   return (
     <div className="w-full sm:w-1/2 m-10 md:w-1/3 lg:w-1/4 xl:w-1/4 drop-shadow-lg ease-in-out">
