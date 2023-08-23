@@ -3,17 +3,17 @@ import CVPage from "./CvPage";
 import Projects from "./Project";
 import Tecnology from "./Tecnology";
 import Typical from "react-typical";
+import Button from "../ui/Button";
 
 const MyDates = () => {
-
   return (
     <div className="px-4 md:px-8 lg:px-16 mt-32">
       {" "}
       {/* Agrega padding lateral para todos los tamaños */}
       <div className="text-center text-5xl my-4">
         <Typical
-            loop={Infinity}
-            wrapper="b"
+          loop={Infinity}
+          wrapper="b"
           steps={[
             "Desarrollador de software",
             1000,
@@ -46,9 +46,11 @@ const MyDates = () => {
             llevan a comenzar la Tecnicatura Universitaria de Programación, un
             nuevo paso en mi viaje de crecimiento y aprendizaje.
           </p>
-
           <CVPage />
         </div>
+      </div>
+      <div className=" fixed z-50 flex ">
+        <Button />
       </div>
       <Tecnology />
       <Projects />
