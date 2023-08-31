@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { AiOutlineHome } from "react-icons/ai";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -9,16 +10,16 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="fixed top-0 w-full p-4 bg-white shadow-xl z-50">
-      <div className="container mx-auto flex sm:justify-between items-center">
+    <nav className="fixed top-0 w-full p-3 bg-white shadow-xl z-50 ">
+      <div className="container mx-auto justify-between flex sm:justify-center items-center">
         <div className="flex items-center">
           
-          <NavLink to={"/"} className="mr-80 ">
-            Levi Gonzalez
+          <NavLink to={"/"} className="sm:mr-80 active:text-sky-800" >
+            <AiOutlineHome size={22}/>
           </NavLink>
 
           {/* Menú de navegación para pantallas grandes */}
-          <div className="hidden lg:flex items-center">
+          <div className="hidden lg:flex items-center ">
             <NavLink
               to={"/technical-certificates"}
               className="hover:text-indigo-400 active:underline p-1 mx-4"
@@ -36,11 +37,11 @@ const Navbar = () => {
         </div>
 
         <button
-          className="lg:hidden text-black focus:outline-none"
+          className="lg:hidden text-black focus:outline-none "
           onClick={toggleMobileMenu}
         >
           <svg
-            className="w-6 h-6"
+            className="w-7 h-10"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"

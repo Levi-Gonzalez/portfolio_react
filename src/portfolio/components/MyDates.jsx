@@ -4,15 +4,16 @@ import Tecnology from "./Tecnology";
 import Typical from "react-typical";
 import Button from "../ui/Button";
 
+
 const MyDates = () => {
 
-  const images = "../../../src/assets/images/foto-perfil.jpg";
+  const images = "https://drive.google.com/uc?export=view&id=1etDe67OJeJoQwaS5vJ20cPr185EQ-9Op";
 
   return (
-    <div className="px-4 md:px-8 lg:px-16 mt-32">
+    <div className="px-4 md:px-8 lg:px-16 mt-20">
       {" "}
       {/* Agrega padding lateral para todos los tamaños */}
-      <div className="text-center text-5xl my-4">
+      <div className="text-center lg:text-5xl my-4">
         <Typical
           loop={Infinity}
           wrapper="b"
@@ -25,7 +26,7 @@ const MyDates = () => {
         />
       </div>
       <div
-        className="flex flex-col md:flex-row justify-center md:justify-between items-center ml-8 first-letter
+        className="flex flex-col md:flex-row justify-center md:justify-between items-center ml-8 first-letter 
       "
       >
         <img
